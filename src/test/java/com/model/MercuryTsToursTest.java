@@ -86,7 +86,7 @@ public class MercuryTsToursTest
   {
 	  File src= ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	      FileUtils.copyFileToDirectory(src, new File("C:\\Users\\user\\eclipse-workspace\\Maven_Project\\src\\test\\resource\\Screenshot\\"));
-	        System.out.println("Screen Shot has Capture Successfully");
+	        System.out.println("SSHCS");
   }
 
   @BeforeClass
