@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.model.MercuryTsToursTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.model.MercuryTsToursTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="dbConnectionClose"/>
+          <include name="loginwithInvalidds3"/>
+          <include name="closeBrowser"/>
+          <include name="maximizeBrowser"/>
+          <include name="enterApplicationUrl"/>
+          <include name="getCookies"/>
+          <include name="deleteAllCookie"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- com.model.MercuryTsToursTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.model.MercuryTsToursTest] -->
